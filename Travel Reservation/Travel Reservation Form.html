@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <centre>
+        <h1> TRAVEL RESERVATION FORM</h1><br>
+        <h6> * denotes mandatory </h6>
+        <!-- <hr> -->
+        <div class="div">
+        <input type="text" name="passengername" placeholder="Name" class="input">
+        <input type="tel" name="mobile" required placeholder="*Mobile Number" class="input"><br>
+        <input type="email" name="mailId" placeholder="*Email ID" required class="input">
+        <select name="travelmonth" class="input">
+            <option value="month of travel">Month of Travel</option>
+            <option value="aug2018">Aug 2020</option>
+            <option value="sep2018">Sep 2022</option>
+            <option value="oct2018">Oct 2022</option>
+            <option value="nov2018">Nov 2022</option>
+            <option value="dec2018">Dec 2022</option>
+            <option value="jan2019">Jan 2023</option>
+            <option value="feb2019">Feb 2023</option>
+            <option value="mar2018">Mar 2023</option>
+            <option value="apr2018">Apr 2023</option>
+        </select>
+        
+        <select name="package" required class="input">
+            <option value="origin"> *Origin</option>
+            <option value="origin"> Goa</option>
+            <option value="origin"> Mysore</option>
+            <option value="origin"> Chikkamagalore</option>
+        </select>
+        <input type="text" name=destination placeholder="Destination" class="input"><br>
+        <input type="submit" name="submit" value="Get A Call" class="input"> 
+        <input type="reset" name="clear" value="Clear" class="input">
+    </div>
+    </centre> 
+
+    
+</body>
+</html>
